@@ -1,0 +1,15 @@
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.ChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.RejectChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.RejectedChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.ApproveChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.DestroyLotContainerQuantity
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.RejectDestroyLotContainer
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.DestroyLotContainerQuantity
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyRejectionFlow.ApproveDestroyLotContainer

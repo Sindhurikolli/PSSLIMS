@@ -1,0 +1,19 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.CreateMasterOfSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.RejectMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.ReinitiateRejectedMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.ApproveMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationAssignment
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationPrintWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationReadyMadeSolution
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.RejectSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.ReinitiateRejectedSolutionPreparationReadyMade
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.RejectionFlow.ApproveSolutionPreparation

@@ -1,0 +1,9 @@
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.ForwardFlow.MasterOfChemical
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.ForwardFlow.ApproveMasterOfChemical
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.ForwardFlow.ChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.ForwardFlow.ApproveChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.ForwardFlow.ChemicalIssuance

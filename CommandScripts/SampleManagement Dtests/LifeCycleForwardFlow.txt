@@ -1,0 +1,3 @@
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleForwardFlow.CreateLifeCycle
+
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleForwardFlow.LifeCycleApproval

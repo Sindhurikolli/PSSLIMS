@@ -1,0 +1,33 @@
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.CreateProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ApproveProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.StorageCondition
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ScheduleTestApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.MasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ApproveMasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.Loading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ApproveLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.QualitativeExternalJobAllotment
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.QualitativeExternalJobs
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.COAApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.CreateSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQualitativeExternalFlow.ApproveSampleAcknowledgement

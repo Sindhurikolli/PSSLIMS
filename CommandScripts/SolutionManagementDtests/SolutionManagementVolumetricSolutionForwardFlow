@@ -1,0 +1,23 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.CreateVolumetricMasterSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationAssignment
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationPrintWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationReadyMadeSolution
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.MasterOfSolutionSTD
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionStandardization
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionSTDTest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionSTDTest

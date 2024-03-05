@@ -1,0 +1,36 @@
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentRegister
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.TestRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.TestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentTestTemplateApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationScheduleApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.JobAssignment
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.WorkSheetCalibrate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationResultsForwardToQC
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.QCApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleForwardFlow.QAApprove
+

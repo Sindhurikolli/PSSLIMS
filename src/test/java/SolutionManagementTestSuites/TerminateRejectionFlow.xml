@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+
+		<listener class-name = "com.pss.lims.Listners.TestListenerSolutionManagement" />
+		<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener" />
+
+	</listeners>
+	
+	<test name = "SolutionManagementTerminateRejectionFlow">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.TerminateMasterOfSolutionRDS"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.RejectTerminateMasterOfSolutionsRDS"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.ReinitiateMasterOfSolutionRDSTerminate"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.ApproveMasterOfSolutionRDSTerminate"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.TerminateSolutionPreparation"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.RejectTerminateSolutionPreparation"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.ReinitiateRejectedSolutionPreparationTerminate"/>
+	<class name = "com.pss.lims.SolutionManagement.TerminateRejectionFlow.ApproveSolutionPreparationTerminate"/>
+	
+	</classes>
+	
+	</test>
+	
+	</suite>

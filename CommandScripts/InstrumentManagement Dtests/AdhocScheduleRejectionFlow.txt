@@ -1,0 +1,59 @@
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentRegister
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.TestRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectTest
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateTest
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.TestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentTestTemplateApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.CreateAdhocSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectAdhocSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateAdhocSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveAdhocSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.JobAssignment
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.CalibrationWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.WorkSheetCalibrate
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.CalibrationResultsForwardToQC
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.QCApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.AdhocScheduleRejectionFlow.QAApprove

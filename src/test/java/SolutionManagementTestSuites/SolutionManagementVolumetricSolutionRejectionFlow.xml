@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+
+		<listener class-name = "com.pss.lims.Listners.TestListenerSolutionManagement" />
+		<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener" />
+
+	</listeners>
+	
+	<test name = "VolumetricSolutionRejectionFlowTestSuite">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.CreateVolumetricMasterSolutionRDS"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectMasterOfSolutions"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedMasterOfSolutions"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveMasterOfSolutions"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationAssignment"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationPrintWorkSheet"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationReadyMadeSolution"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionPreparation"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionPreparationReadyMade"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionPreparation"/>
+	
+	</classes>
+	
+	</test> 
+	
+	<test name = "VolumetricStandardSolutionRejectionFlowTestSuite">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.MasterOfSolutionSTD"/> 
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionStandardization"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedMasterOfSolutionSTD"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionStandardization"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionStandardizationWorkSheet"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionSTDTest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionSTDTest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionSTDTest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionSTDTest"/>
+	
+	</classes>
+	
+	</test>
+	
+	</suite>

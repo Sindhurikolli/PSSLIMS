@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+
+		<listener class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+<parameter name="Initiator_Login" value="${Initiator_Login}"/>
+<parameter name="SampleManager_Login" value="${SampleManager_Login}"/>
+<parameter name="Reviewer" value="${Reviewer}"/>
+<parameter name="Approver_Login" value="${Approver_Login}"/>
+<parameter name="Analyst" value="${Analyst}"/>
+<parameter name="MasterCreator_Login" value="${MasterCreator_Login}"/>
+<parameter name="Reviewer_In_JobAllotment" value="${Reviewer_In_JobAllotment}"/>
+<parameter name="First_Name" value="${First_Name}"/>
+<parameter name="LastName" value="${LastName}"/>
+<parameter name="MyJobUserLastName" value="${MyJobUserLastName}"/>
+
+
+	<test name="UsersPropertiesFileUpdate">
+		<classes>
+			<class
+				name="com.pss.lims.PropertiesFileUpdate.UsersPropertiesFileUpdate">
+			</class>
+		</classes>
+	</test>
+
+	<test name="MultiJobWorksheetPrintTest">
+
+		<classes>
+		
+			  <class name = "com.pss.lims.sm.InternalForwardFlow.MultiJobWorksheetPrint" /> 
+	
+		</classes>
+		
+	</test>
+	
+</suite>

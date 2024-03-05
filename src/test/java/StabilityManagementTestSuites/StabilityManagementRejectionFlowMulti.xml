@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name="StabilityManagementRejectionFlowTestSuite">
+	
+<classes>
+
+            
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.CreateProtocolMltBatchMltConditionMltInterval" /> 
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectProtocol" />   
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectedProtocolMtlBatchMtlConMtlInterval" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ApproveProtocol" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ScheduleTestMulti" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectScheduleTest" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectedScheduleTestMulti" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ScheduleTestApprove" />
+			
+			
+ </classes>
+
+ </test>
+	
+	<test name = "StabilityManagementRejectionFlowTestSuite2">
+	
+	<classes>
+	
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.LoadingMulti" />  
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectLoading" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectedLoadingMulti" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ApproveLoading" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.CreateSampleAcknowledgement" /> 
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectSampleAcknowledgement" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectedSampleAcknowledgement" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ApproveSampleAcknowledgement" />
+
+		</classes>
+		
+	</test>
+	
+	<!-- <test name = "StabilityManagementRejectionFlowAdminMC">
+	
+	<classes>
+	<class name = "com.pss.lims.StabilityManagement.RejectionFlow.MasterChamber" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectMasterChamber" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.RejectedMasterOfChamber" />
+			<class name = "com.pss.lims.StabilityManagement.RejectionFlow.ApproveMasterChamber" />
+	</classes>
+		
+	</test> -->
+</suite>

@@ -1,0 +1,59 @@
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.Product
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ProductReject
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReInitiateRejectedProduct
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.Specification
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SpecificationReject
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReInitiateRejectedSpecification
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.QuantativeTestReg
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.TestReject
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReInitiateRejectedTest
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.TestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.TestPlannerReject
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReInitiateRejectedTestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.RejectSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReinitiateRejectedSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SampleRegistrationApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.RejectSampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.ReinitiateRejectedSampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SampleQuantityApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.JobAllotment
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.QuantativeJobResults
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalRejectionFlow.COAApprove

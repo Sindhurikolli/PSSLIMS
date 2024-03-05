@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+
+	<test name="RegistrationProjectTestSuites">
+
+		<classes>
+			<class name="com.pss.lims.RegistrationProj.ForwardFlow.MarketDetails"/>
+			<class name="com.pss.lims.RegistrationProj.ForwardFlow.Customer"/>
+			<class name="com.pss.lims.RegistrationProj.ForwardFlow.CustomerApproval"/>
+			<class name="com.pss.lims.RegistrationProj.ForwardFlow.Product"/>
+      		<class name="com.pss.lims.RegistrationProj.ForwardFlow.ProductApproval"/>
+			<class name="com.pss.lims.RegistrationProj.ForwardFlow.Specification"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.SpecificationApproval"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.Manufacturer"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.ManufacturerApprove"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.Supplier"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.SupplierApproval"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.PlantCode"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.PlantCodeApproval"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.SampleType"/>
+		    <class name="com.pss.lims.RegistrationProj.ForwardFlow.SampletypeApproval"/>
+		</classes>
+
+	</test>
+
+
+</suite>

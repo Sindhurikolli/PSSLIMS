@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<!-- 
+<parameter name="Product_code" value="${Product_code}"/>
+<parameter name="Description" value="${Description}"/>
+<parameter name="Storage_Condition_Name" value="${Storage_Condition_Name}"/>
+<parameter name="TestName" value="${TestName}"/>
+<parameter name="MasterChamber" value="${MasterChamber}"/>
+<parameter name="AdhocScheduleName" value="${AdhocScheduleName}"/> -->
+
+<!-- <parameter name="Product_code" value="Dolo-100"/>
+<parameter name="Description" value="Protocol Created"/>
+<parameter name="Storage_Condition_Name" value="10 C to 15 C"/>
+<parameter name="TestName" value="pharma Test "/>
+<parameter name="MasterChamber" value="Master Chamber"/>
+<parameter name="AdhocScheduleName" value="Adhoc Schedule 29-07-21"/> -->
+
+<!-- <test name = "LimsPropertiesFileUpdateTestSuiteReport">
+
+<classes>
+
+<class name = "com.pss.lims.Properties.UpdatePropertiesFile.LIMSPropertiesFileUpdate">
+
+<methods>
+
+<include name = "StabiltiyManagementModuleUpdate"/>
+
+</methods>
+
+</class>
+
+</classes>
+
+</test> -->
+
+<test name="StabilityManagementWithSampleManagementExternalFlow">
+
+<classes>
+
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.CreateProtocol"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ApproveProtocol"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.StorageCondition"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ScheduleTest"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ScheduleTestApprove"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.MasterChamber"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ApproveMasterChamber"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.Loading"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ApproveLoading"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.QuantativeExternalJobAllotment"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.MyJob"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.QuantativeExternalJobs"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.SIApproval"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.SampleResult"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.COAApprove"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.CreateSampleAcknowledgement"/>
+<class name = "com.pss.lims.StabilityManagementWithSampleManagementQuantativeExternalFlow.ApproveSampleAcknowledgement"/>
+
+</classes>
+
+</test>
+
+</suite>

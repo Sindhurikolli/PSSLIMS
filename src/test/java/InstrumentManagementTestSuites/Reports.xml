@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="ReportsTestSuite">
+
+		<classes>
+
+			<class name="com.pss.lims.IM.Report.ScheduleReport"></class>
+			<class name="com.pss.lims.IM.Report.InstrumentStatus" />
+			<class name="com.pss.lims.IM.Report.InstrumentUsage" />
+			<class name="com.pss.lims.IM.Report.RawDataSheetReport" />
+			<class name="com.pss.lims.IM.Report.CalibrationCertificate" />
+			<class name="com.pss.lims.IM.Report.InstrumentIndex" />
+			<class name="com.pss.lims.IM.Report.UtilizationReport" />
+			<!-- <class name="com.pss.lims.IM.Report.AnnualCalibrationReport" /> -->
+			<class name="com.pss.lims.IM.Report.InstrumentUsageOptional" />
+			<class
+				name="com.pss.lims.IM.Report.InstrumentHistroyCardReport" />
+		</classes>
+	</test>
+</suite>

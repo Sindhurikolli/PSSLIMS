@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name="RegistrationForwardFlow1">
+
+		<classes>
+			
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyUOM" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ApproveUOM" /> 				
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyCustomer" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.CustomerApproval" /> 	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySupplier" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.SupplierApproval" />	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyManufacturer" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ManufacturerApprove" />
+			
+			</classes>
+			
+	 </test>
+			
+	 <test name="RegistrationForwardFlow2">
+	 
+		<classes>
+			
+			<!-- <class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySampleType" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.SampletypeApproval" />  -->	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyProduct" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ProductApproval" /> 	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySpecification" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.SpecificationApproval" />	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyTest" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.TestApproval" />	
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyTestPlanner" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.TestPlannerApproval" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySampleRegistration" />
+			<class name = "com.pss.lims.sm.Registration.ModifyForwardFlow.SampleRegistrationApprove" />
+									
+		</classes>
+		
+	</test>
+	
+</suite>

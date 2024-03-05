@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name="RejectFlowTestSuiteReport">
+
+		<classes>
+		
+	<!-- 	 <class name = "com.pss.lims.sm.ProductToTestPlanRej.Product"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ProductReject"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ReInitiateRejectedProduct"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ProductApproval"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.Specification"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.SpecificationReject"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ReInitiateRejectedSpecification"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.SpecificationApproval"/>  
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.MicroQualitativeTestReg"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.TestReject"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ReInitiateRejectedTest"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.TestApproval"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.TestPlanner"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.TestPlannerReject"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.ReInitiateRejectedTestPlanner"/>
+		<class name = "com.pss.lims.sm.ProductToTestPlanRej.TestPlannerApproval"/>-->
+			
+		</classes>
+		
+	</test>
+	
+	 <test name="InternalRejectionFlowTestSuite">
+	
+	<classes>
+ 	 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.SampleRegistrationForMicroTest"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.RejectSampleRegistration"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.ReinitiateRejectedSampleRegistration"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.SampleRegistrationApprove"/>     
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.SampleQuantity"/> 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.RejectSampleQuantity"/>
+    <class name = "com.pss.lims.sm.InternalRejectionFlow.ReinitiateRejectedSampleQuantity"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.SampleQuantityApprove"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.MicroJobAllotment"/> 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.MyJob"/>
+	
+		</classes>
+		
+	</test> 
+
+	<test name="InternalRejectionFlowTestSuite1">
+	
+	<classes>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.JobResultsQualitativeTestNonCompliance"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobReview"/> 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobSIReview"/>  
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobHODReview"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobQAReviewWithReCheck"/>
+	
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.QualitativeJobResults"/>
+	</classes>
+		
+	</test>
+	
+	<test name="InternalRejectionFlowTestSuite2"> 
+	
+	<classes>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobReviewAfterReCheck"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobSIReview"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobHODReview"/> 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.FailJobQAReview"/> 
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.SampleResult"/>
+	<class name = "com.pss.lims.sm.InternalRejectionFlow.COAApprove"/>
+	
+	</classes>
+	
+	</test>
+	
+</suite>

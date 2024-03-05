@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="AuditTrialsTestSuite">
+
+		<classes>
+
+			<class name="com.pss.lims.sm.AuditTrails.SampleStatus" />
+			<class name="com.pss.lims.sm.AuditTrails.Product" />
+			<class name="com.pss.lims.sm.AuditTrails.TestPlanner" />
+			<class name="com.pss.lims.sm.AuditTrails.Specification" />
+			<class name="com.pss.lims.sm.AuditTrails.TestAuditTrails" />
+			<class name="com.pss.lims.sm.AuditTrails.Manufacturer" />
+			<class name="com.pss.lims.sm.AuditTrails.Supplier"></class>
+			<class name="com.pss.lims.sm.AuditTrails.SampleType" />
+			<class name="com.pss.lims.sm.AuditTrails.Grade" />
+			<class name="com.pss.lims.sm.AuditTrails.PackingType" />
+			<class name="com.pss.lims.sm.AuditTrails.HandlingSymbol" />
+			<class name="com.pss.lims.sm.AuditTrails.StorageLocation" />
+			<class name="com.pss.lims.sm.AuditTrails.Customer" />
+			<class name="com.pss.lims.sm.AuditTrails.UOM" />
+			<class name="com.pss.lims.sm.AuditTrails.AssignRole" />
+			
+		</classes>
+	</test>
+</suite>

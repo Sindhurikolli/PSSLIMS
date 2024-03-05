@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.IM.DestroyRejectionFlow.InstrumentDestory
+
+mvn clean test -Dtest=com.pss.lims.IM.DestroyRejectionFlow.RejectInstrumentDestroy
+
+mvn clean test -Dtest=com.pss.lims.IM.DestroyRejectionFlow.ReinitiateInstrumentDestroy
+
+mvn clean test -Dtest=com.pss.lims.IM.DestroyRejectionFlow.ApproveInstrumentDestroy

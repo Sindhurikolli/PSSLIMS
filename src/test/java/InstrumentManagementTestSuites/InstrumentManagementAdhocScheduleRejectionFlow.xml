@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name = "AdhocScheduleRejectionFlow1">
+
+<classes>
+
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentCategory"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentCategory"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentCategory"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveInstrumentCategory"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentRegister"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentRegistration"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentRegistration"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveInstrumentRegistration"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.TestRegistration"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectTest"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateTest"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.TestApproval"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.TestTemplate"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectTestTemplate"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateTestTemplate"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveTestTemplate"/>
+	
+	</classes>
+	
+	</test>
+	
+	<test name = "AdhocScheduleRejectionFlow2">
+	
+	<classes>
+
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentTestTemplate"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectInstrumentTestTemplate"/>
+	<class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateInstrumentTestTemplate"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.InstrumentTestTemplateApproval"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.CreateAdhocSchedule"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.RejectAdhocSchedule"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ReinitiateAdhocSchedule"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.ApproveAdhocSchedule"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.JobAssignment"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.CalibrationWorkSheet"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.WorkSheetCalibrate"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.CalibrationResultsForwardToQC"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.QCApprove"/>
+    <class name = "com.pss.lims.IM.AdhocScheduleRejectionFlow.QAApprove"/>
+
+</classes>
+
+</test>
+
+</suite>

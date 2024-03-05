@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name = "ModifyScheduleRejectionFlowTestSuite">
+
+<classes>
+
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyInstrumentRegistration"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectInstrumentRegistration"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateInstrumentRegistration"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ApproveInstrumentRegistration"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyTest"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectTest"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateTest"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.TestApproval"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ApproveTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyInstrumentTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectInstrumentTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateInstrumentTestTemplate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.InstrumentTestTemplateApproval"/>
+
+</classes>
+
+</test>
+
+<test name="ModifyScheduleRejectionFlowTestSuiteReport1">
+
+<classes>
+
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifySchedule"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectModifySchedule"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateModifySchedule"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyScheduleApprove"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.JobAssignment"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.CalibrationWorkSheet"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.WorkSheetCalibrate"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.CalibrationResultsForwardToQC"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.QCApprove"/>
+<class name = "com.pss.lims.IM.ModifyScheduleRejectionFlow.QAApprove"/>
+
+</classes>
+
+</test>
+
+</suite>

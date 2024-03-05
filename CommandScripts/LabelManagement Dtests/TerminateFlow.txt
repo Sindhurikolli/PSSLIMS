@@ -1,0 +1,1 @@
+mvn clean test -Dtest=com.pss.lims.LM.TerminateForwardFlow.TerminateLabelTemplate

@@ -1,0 +1,9 @@
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestRejectionFlow.LabelPrintReport
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestRejectionFlow.LabelRePrintRequest
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestRejectionFlow.RejectLabelRePrintRequest
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestRejectionFlow.LabelRePrintRequest
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestRejectionFlow.ApproveLabelRePrintRequest

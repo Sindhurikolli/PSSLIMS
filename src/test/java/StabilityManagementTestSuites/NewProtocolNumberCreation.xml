@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+		<listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement" />
+	</listeners>
+
+
+	<parameter name="Protocol_Number" value="PSSSM0011" />
+
+	<test name="NumberTestSuite">
+
+		<classes>
+
+			<class
+				name="com.pss.lims.StabilityManagement.ProtocolNumber.PropertiesFileUpdate" />
+
+		</classes>
+	</test>
+	<!-- <test name="UserCreation"> <classes> <class name="com.pss.qms.admin.AdminUserCreation.InitiateUserCreation"/> 
+		</classes> </test> <test name="FirstTimeUserPasswordChange"> <classes> <class 
+		name="com.pss.qms.admin.AdminUserCreation.FirstTimeUserLogin"/> </classes> 
+		</test> -->
+
+
+</suite>

@@ -1,0 +1,39 @@
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ApproveUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyCustomer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.CustomerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySupplier
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.SupplierApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyManufacturer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ManufacturerApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySampleType
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.SampletypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyProduct
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySpecification
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyTest
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifyTestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.ModifySampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyForwardFlow.SampleRegistrationApprove

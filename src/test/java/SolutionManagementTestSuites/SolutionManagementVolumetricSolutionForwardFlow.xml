@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+
+		<listener class-name = "com.pss.lims.Listners.TestListenerSolutionManagement" />
+		<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener" />
+
+	</listeners>
+	
+	<test name="VolumetricSolutionForwardFlowTestSuiteReport">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.CreateVolumetricMasterSolutionRDS"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveMasterOfSolutions"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationAssignment"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationPrintWorkSheet"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionPreparationReadyMadeSolution"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionPreparation"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.MasterOfSolutionSTD"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionStandardization"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionSTDRequest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionStandardizationWorkSheet"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.SolutionSTDTest"/>
+	<class name = "com.pss.lims.SolutionManagement.VolumetricSolutionForwardFlow.ApproveSolutionSTDTest"/>
+	
+	</classes>
+	
+	</test>
+	
+	</suite>

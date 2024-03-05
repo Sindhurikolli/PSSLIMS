@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+
+		<listener class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+<parameter name="Initiator_Login" value="${Initiator_Login}"/>
+<parameter name="SampleManager_Login" value="${SampleManager_Login}"/>
+<parameter name="Reviewer" value="${Reviewer}"/>
+<parameter name="Approver_Login" value="${Approver_Login}"/>
+<parameter name="Analyst" value="${Analyst}"/>
+<parameter name="MasterCreator_Login" value="${MasterCreator_Login}"/>
+<parameter name="Reviewer_In_JobAllotment" value="${Reviewer_In_JobAllotment}"/>
+<parameter name="First_Name" value="${First_Name}"/>
+<parameter name="LastName" value="${LastName}"/>
+<parameter name="MyJobUserLastName" value="${MyJobUserLastName}"/>
+
+<!-- <parameter name="Initiator_Login" value="SMAUTO4"/>
+<parameter name="SampleManager_Login" value="SMAUTO4"/>
+<parameter name="Reviewer" value="SMAUTO5"/>
+<parameter name="Approver_Login" value="SMAUTO6"/>
+<parameter name="Analyst" value="SMAUTO6"/>
+<parameter name="MasterCreator_Login" value="SMAUTO4"/>
+<parameter name="Reviewer_In_JobAllotment" value="SMAUTO 6"/>
+<parameter name="First_Name" value="SMAUTO"/>
+<parameter name="LastName" value="6"/>
+<parameter name="MyJobUserLastName" value="6"/> -->
+
+	<test name="UsersPropertiesFileUpdate">
+		<classes>
+			<class
+				name="com.pss.lims.PropertiesFileUpdate.UsersPropertiesFileUpdate">
+			</class>
+		</classes>
+	</test>
+
+	<test name="loadSampleRegistrationTest">
+
+		<classes>
+		
+	<!-- 		<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleReg" />
+ -->
+ 
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationWithMultiProducts" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleRegApproval" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleQuantity" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleQuantityApproval" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadMultiTestsJobAllotment" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadMultiJobWorksheetPrint" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadMutiTestsJobResults" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSIApproval" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadSampleResult" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTest.LoadCOAApprove" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

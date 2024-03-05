@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.LM.ForwardFlow.LabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.ForwardFlow.ApproveLabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.ForwardFlow.LabelData
+
+mvn clean test -Dtest=com.pss.lims.LM.ForwardFlow.ApproveLabelData

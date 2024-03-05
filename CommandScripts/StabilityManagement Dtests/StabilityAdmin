@@ -1,0 +1,5 @@
+mvn clean test -Dtest=com.pss.lims.Stability.Admin.Sample.AnalysisTolerance
+
+mvn clean test -Dtest=com.pss.lims.Stability.Admin.Sample.ProtocolSequence
+
+mvn clean test -Dtest=com.pss.lims.Stability.Admin.Sample.SampleTypeMap

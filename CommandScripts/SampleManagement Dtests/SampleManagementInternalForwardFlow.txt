@@ -1,0 +1,35 @@
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.Product
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.Specification
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.QuantativeTestReg
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.TestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SampleRegistrationApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.JobAllotment
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.QuantativeJobResults
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.sm.InternalForwardFlow.COAApprove

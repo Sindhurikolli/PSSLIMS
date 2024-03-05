@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleRegistrationRejectFlowWithReCheckSuite">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+</listeners>
+
+	<test name="SampleRegistrationRejectFlowWithReCheck">
+
+		<classes>
+				
+			<class name="com.pss.lims.sm.SampleManager.SampleRegistration" /> 
+			
+			 <class name="com.pss.lims.sm.SampleManager.reject.RejectSampleRegistration"/>
+			
+			 <class name="com.pss.lims.sm.SampleManager.reject.ModifyRejectedSampleRegistration"/>
+			 
+			<class name="com.pss.lims.sm.myactivities.approvals.SampleRegistrationApprove" />
+				
+			<class name="com.pss.lims.sm.SampleManager.SampleQuantity" />
+			
+			<class name="com.pss.lims.sm.SampleManager.reject.RejectSampleQuantity"/>
+			
+			<class name="com.pss.lims.sm.SampleManager.reject.ModifyRejectedSampleQuantity"/>
+			
+			<class name="com.pss.lims.sm.myactivities.approvals.SampleQuantityApprove" />
+				
+			<class name="com.pss.lims.sm.SampleManager.JobAllotment" />
+			
+			<class name="com.pss.lims.sm.myactivities.MyJob" />
+			
+			 <class name="com.pss.lims.sm.myactivities.JobResultsQualitativeTestNonCompliance"/> 
+			
+			   <class name="com.pss.lims.sm.myactivities.FailJobReview"/>
+			 
+			 <class name="com.pss.lims.sm.myactivities.FailJobSIReview"/>
+          
+      		<class name="com.pss.lims.sm.myactivities.FailJobHODReview"/>
+      
+     		<class name="com.pss.lims.sm.myactivities.FailJobQAReviewWithReCheck"/>
+     		
+     		<class name="com.pss.lims.sm.myactivities.JobResultsQualitativeTest" />
+     		
+     		  <class name="com.pss.lims.sm.myactivities.FailJobReviewAfterReCheck"/>
+     		  
+     		  	</classes>
+	</test>
+     		  
+     		 <test name="SampleRegistrationRejectFlowWithReCheck2"> 
+     		 
+			 <classes>
+			 
+			 <class name="com.pss.lims.sm.myactivities.FailJobSIReview"/>
+          
+      		<class name="com.pss.lims.sm.myactivities.FailJobHODReview"/>
+      		
+      		<class name="com.pss.lims.sm.myactivities.FailJobQAReview"/>
+			
+			<class name="com.pss.lims.sm.SampleManager.SampleResult" />
+			
+			<class name="com.pss.lims.sm.myactivities.approvals.COAApprove" /> 
+		</classes>
+	</test>
+</suite>

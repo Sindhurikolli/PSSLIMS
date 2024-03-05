@@ -1,0 +1,35 @@
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.Product
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.Specification
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.QuantativeTestReg
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.TestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SampleRegistrationApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SampleQuantityApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.ExternalJobAllotment
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.ExternalJobs
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalForwardFlow.COAApprove

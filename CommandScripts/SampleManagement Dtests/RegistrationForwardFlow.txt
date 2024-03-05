@@ -1,0 +1,55 @@
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.PackingType
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.PackingTypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.UOM
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.ApproveUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.StroageCondition
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.ApproveStorageCondition
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.StorageLocation
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.StorageLocationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.HandlingSymbol
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.HandlingSymbolApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.CategoryRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.ApproveCategory
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.TestCode
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.TestCodeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.Grade
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.ApproveGrade
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.GroupType
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.GroupTypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.GroupRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.GroupRegistrationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.Customer
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.CustomerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.Supplier
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.SupplierApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.Manufacturer
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.ManufacturerApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.SampleType
+
+mvn clean test -Dtest=com.pss.lims.sm.RegistrationForwardFlow.RejectSampletypeApproval

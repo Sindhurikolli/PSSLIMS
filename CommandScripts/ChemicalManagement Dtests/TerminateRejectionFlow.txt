@@ -1,0 +1,15 @@
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateMasterOfChemical
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.RejectMasterOfChemicalTerminate
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateMasterOfChemical
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.MasterOfChemicalTerminateApprove
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.RejectTerminatedChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.TerminateRejectionFlow.ApproveTerminatedChemicalLot

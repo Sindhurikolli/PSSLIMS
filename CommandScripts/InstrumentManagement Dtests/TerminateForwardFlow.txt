@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.IM.TerminateForwardFlow.SingleScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateForwardFlow.ApproveTerminateSingleSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateForwardFlow.InstrumentScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateForwardFlow.ApproveTerminateInstrumentSchedule

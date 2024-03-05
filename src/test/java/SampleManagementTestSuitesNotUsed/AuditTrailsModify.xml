@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="AuditModifyTestSuite">
+
+		<classes>
+
+			<class name="com.pss.lims.sm.AuditTrials.Modify.Product"></class>
+			<class name="com.pss.lims.sm.AuditTrials.Modify.Specification" />
+			<class
+				name="com.pss.lims.sm.AuditTrials.Modify.SampleRegistration" />
+			<class name="com.pss.lims.sm.AuditTrials.Modify.UOM" />
+		</classes>
+	</test>
+</suite>

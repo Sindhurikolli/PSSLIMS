@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name="StabilityAdminTestSuiteReport">
+
+<classes>
+
+<class name = "com.pss.lims.Stability.Admin.Sample.AnalysisTolerance"/>
+<class name = "com.pss.lims.Stability.Admin.Sample.ProtocolSequence"/>
+<class name = "com.pss.lims.Stability.Admin.Sample.SampleTypeMap"/>
+
+</classes>
+
+</test>
+
+</suite>

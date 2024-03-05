@@ -1,0 +1,59 @@
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.InstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ApproveInstrumentCategory
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.InstrumentRegister
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ApproveInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.TestRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectTest
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateTest
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.TestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ApproveTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.InstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.InstrumentTestTemplateApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.CalibrationSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.RejectCalibrattionSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.ReinitiateCalibrationSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.CalibrationScheduleApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.JobAssignment
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.CalibrationWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.WorkSheetCalibrate
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.CalibrationResultsForwardToQC
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.QCApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.PlannedScheduleRejectionFlow.QAApprove

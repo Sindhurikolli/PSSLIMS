@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateForwardFlow.TerminateMasterOfSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateForwardFlow.ApproveMasterOfSolutionRDSTerminate
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateForwardFlow.TerminateSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateForwardFlow.ApproveSolutionPreparationTerminate

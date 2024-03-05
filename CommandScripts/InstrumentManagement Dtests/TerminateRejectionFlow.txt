@@ -1,0 +1,15 @@
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.SingleScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.RejectSingleScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.ReinitiateSingleScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.ApproveTerminateSingleSchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.InstrumentScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.RejectInstrumentScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.ReinitiateInstrumentScheduleTerminate
+
+mvn clean test -Dtest=com.pss.lims.IM.TerminateRejectionFlow.ApproveTerminateInstrumentSchedule

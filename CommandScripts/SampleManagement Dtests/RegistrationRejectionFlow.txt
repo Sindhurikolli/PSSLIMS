@@ -1,0 +1,25 @@
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.PackingType
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.PackingTypeReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.ReInitiateRejectedPackingType
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.PackingTypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.UOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.UOMReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.ReInitiateRejectedUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.ApproveUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.StroageCondition
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.StorageConditionReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.ReInitiateRejectedStorageCondition
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.StorageLocationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.Reject.ApproveStorageCondition

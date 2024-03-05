@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name = "AdhocScheduleForwardFlowTestSuiteReport">
+
+<classes>
+
+            <class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.InstrumentCategory"/>
+            <class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.ApproveInstrumentCategory" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.InstrumentRegister" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.ApproveInstrumentRegistration" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.TestRegistration" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.TestApproval" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.TestTemplate" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.ApproveTestTemplate" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.InstrumentTestTemplate" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.InstrumentTestTemplateApproval" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.CreateAdhocSchedule" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.ApproveAdhocSchedule" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.JobAssignment" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.CalibrationWorkSheet" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.WorkSheetCalibrate"/>
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.CalibrationResultsForwardToQC" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.QCApprove" />
+			<class name = "com.pss.lims.IM.AdhocScheduleForwardFlow.QAApprove" />
+
+</classes>
+
+</test>
+
+</suite>

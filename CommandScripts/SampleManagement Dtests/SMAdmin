@@ -1,0 +1,9 @@
+mvn clean test -Dtest=com.pss.lims.sm.AdminTab.CreateRole
+
+mvn clean test -Dtest=com.pss.lims.sm.AdminTab.ApproveRole
+
+mvn clean test -Dtest=com.pss.lims.sm.AdminTab.AsignRole
+
+mvn clean test -Dtest=com.pss.lims.sm.AdminTab.PlantCode
+
+mvn clean test -Dtest=com.pss.lims.sm.AdminTab.CreateUserGroup

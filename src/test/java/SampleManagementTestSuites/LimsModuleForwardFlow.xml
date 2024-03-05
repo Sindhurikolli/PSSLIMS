@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+
+	<test name="RegistrationTestSuites1">
+
+		<classes>
+
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.PackingType" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.PackingTypeApproval" />  
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.UOM" /> 
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.ApproveUOM" /> 
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.StroageCondition" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.ApproveStorageCondition" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.StorageLocation" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.StorageLocationApproval" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.HandlingSymbol" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.HandlingSymbolApproval" /> 
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.CategoryRegistration" />
+			 <class name = "com.pss.lims.LimsModule.ForwardFlow.ApproveCategory" />
+			
+		</classes>
+	
+  </test>
+  
+<test name = "RegistrationTestSuites2">
+		
+		<classes>
+			
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.TestCode" /> 
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.TestCodeApproval" />  
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.Grade" /> 
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.ApproveGrade" />
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.GroupType" />
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.GroupTypeApproval" /> 
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.GroupRegistration" />
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.GroupRegistrationApproval" />
+			<class name="com.pss.lims.Registration.RegistrationForwardFlow.OosCheckList"/>
+			<class name="com.pss.lims.Registration.RegistrationForwardFlow.OosCheckListApproval"/>
+     
+		</classes>
+		
+		
+		
+		
+</test>
+
+	<test name="RegistrationTestSuites3">
+
+		
+<classes>
+			<class name = "com.pss.lims.LimsModule.ForwardFlow.MultiTestCreation" /> 
+			<class name = "com.pss.lims.Registration.LimsModule.ForwardFlow.TestPlanner" />
+			<class name = "com.pss.lims.Registration.LimsModule.ForwardFlow.TestPlannerApproval" /> 
+</classes>
+			
+			
+			
+			
+	
+	
+  </test>
+			
+	
+</suite>

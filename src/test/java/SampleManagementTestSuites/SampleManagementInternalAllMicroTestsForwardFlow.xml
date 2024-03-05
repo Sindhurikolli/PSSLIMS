@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+
+		<listener class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+<parameter name="SAMPLE_MANAGEMENT_QUANTITATIVETEST_FORWARDED_FLOW" value="ALLTESTS"/>
+	
+	
+    <test name="SampleManagementPropertyFileUpdate">
+        <classes>
+      <class name="com.pss.lims.PropertiesFileUpdate.SampleManagementPropertyFileUpdate">
+      
+      <methods>
+		<include name="ALL_TESTS"/>
+	  </methods>   
+      </class> 
+        </classes>
+    </test>
+
+	<test name="InternalForwardFlowTestSuiteReport">
+
+		<classes>	
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTestSelectionInSampleRegistration" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationApprove" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantity" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MultiTestsMicroJobAllotment" /> 
+			  <class name = "com.pss.lims.sm.InternalForwardFlow.MultiJobWorksheetPrint" /> 
+			 <class name = "com.pss.lims.sm.InternalForwardFlow.MutiTestsJobResultsSMFullVersionInternal" /> 
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SIApprovalMultipleTestsWithSameARNumber" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleResult" />
+			 <class name = "com.pss.lims.sm.InternalForwardFlow.COAApprove" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

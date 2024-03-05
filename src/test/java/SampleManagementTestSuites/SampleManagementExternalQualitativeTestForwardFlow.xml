@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+
+	<test name="InternalQualitativeForwardFlowTestSuite">
+
+		<classes>
+			
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.Product"/> 
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.ProductApproval"/>	
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.Specification"/>
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.SpecificationApproval"/>
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.QualitativeTestReg"/>
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.TestApproval"/>
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.TestPlanner"/> 
+			<class name = "com.pss.lims.sm.ProductToTestPlanFwd.TestPlannerApproval"/>  
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistration" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationApprove" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantity" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove" />
+		    <class name = "com.pss.lims.sm.InternalForwardFlow.ExternalJobAllotment" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MyJob" /> 
+			<class name = "com.pss.lims.sm.InternalForwardFlow.QualitativeExternalJobs" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SIApproval" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleResult" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.COAApprove" /> 
+			
+		</classes>
+		
+	</test>
+	
+</suite>

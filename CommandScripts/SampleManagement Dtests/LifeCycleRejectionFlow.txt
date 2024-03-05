@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleRejectionFlow.CreateLifeCycle
+
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleRejectionFlow.RejectLifeCycle
+
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleRejectionFlow.ReinitiateLifeCycle
+
+mvn clean test -Dtest=com.pss.lims.sm.LifeCycleRejectionFlow.LifeCycleApproval

@@ -1,0 +1,31 @@
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.ProductHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.ProductHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.ProductUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.ProductUnHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.SpecificationHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.SpecificationHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.SpecificationUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.SpecificationUnHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestHoldApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestUnHoldApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestPlannerHold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestPlannerHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestPlannerUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.statuschangeForwardFlow.TestPlannerUnholdApproval

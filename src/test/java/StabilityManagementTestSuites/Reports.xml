@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="ReportsTestSuites">
+
+		<classes>
+
+			<class name="com.pss.lims.Stability.Reports.ProtocolReport" />
+			<class name="com.pss.lims.Stability.Reports.ScheduleReport" />
+			<class name="com.pss.lims.Stability.Reports.PrintRequest" />
+			<class
+				name="com.pss.lims.Stability.Reports.PrintRequestApprove" />
+			<class name="com.pss.lims.Stability.Reports.CompiliationReport" />
+			<class
+				name="com.pss.lims.Stability.Reports.QualityWithdrawReport" />
+			<!--  <class name="com.pss.lims.Stability.Reports.StabilityDeactivationReport" /> -->
+		</classes>
+	</test>
+</suite>

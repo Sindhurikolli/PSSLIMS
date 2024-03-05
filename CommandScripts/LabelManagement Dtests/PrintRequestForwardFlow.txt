@@ -1,0 +1,5 @@
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestForwardFlow.LabelPrintReport
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestForwardFlow.LabelRePrintRequest
+
+mvn clean test -Dtest=com.pss.lims.LM.PrintRequestForwardFlow.ApproveLabelRePrintRequest

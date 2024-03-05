@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name="DestroyRejectionFlowTestSuiteReport">
+
+		<classes>
+
+			<class name = "com.pss.lims.IM.DestroyRejectionFlow.InstrumentDestory"/>
+			<class name = "com.pss.lims.IM.DestroyRejectionFlow.RejectInstrumentDestroy"/>
+			<class name = "com.pss.lims.IM.DestroyRejectionFlow.ReinitiateInstrumentDestroy"/>
+			<class name = "com.pss.lims.IM.DestroyRejectionFlow.ApproveInstrumentDestroy" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

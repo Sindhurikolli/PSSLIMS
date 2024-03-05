@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+
+		<listener class-name = "com.pss.lims.Listners.TestListenerSolutionManagement" />
+		<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener" />
+
+	</listeners>
+
+<test name = "SolutionManagementForwardFlowTestSuite">
+
+<classes>
+
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.CreateMasterOfSolutionRDS"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.RejectMasterOfSolutions"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.ReinitiateRejectedMasterOfSolutions"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.ApproveMasterOfSolutions"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationAssignment"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationPrintWorkSheet"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.SolutionPreparationReadyMadeSolution"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.RejectSolutionPreparation"/> 
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.ReinitiateRejectedSolutionPreparationReadyMade"/>
+<class name = "com.pss.lims.SolutionManagement.RejectionFlow.ApproveSolutionPreparation"/>
+
+</classes>
+
+</test>
+
+</suite>

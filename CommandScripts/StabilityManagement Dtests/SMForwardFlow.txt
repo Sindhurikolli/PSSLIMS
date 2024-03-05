@@ -1,0 +1,27 @@
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.AnalysisTolerance
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ProtocolSequence
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.SampleTypeMap
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.CreateProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ApproveProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.StorageCondition
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ScheduleTestApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.MasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ApproveMasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.Loading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ApproveLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.CreateSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.ForwardFlow.ApproveSampleAcknowledgement

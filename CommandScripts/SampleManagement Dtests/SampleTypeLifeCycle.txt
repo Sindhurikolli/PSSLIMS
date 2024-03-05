@@ -1,0 +1,5 @@
+mvn clean test -Dtest=com.pss.lims.sm.SampleTypeLifeCycle.SampleType
+
+mvn clean test -Dtest=com.pss.lims.sm.SampleTypeLifeCycle.SampletypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.SampleTypeLifeCycle.CreateSampleTypeLifeCycle

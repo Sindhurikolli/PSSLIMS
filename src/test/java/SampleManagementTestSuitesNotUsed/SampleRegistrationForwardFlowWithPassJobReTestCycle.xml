@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SampleRegistrationForwardFlowWithPassJobReTestCycleSuite">
+
+<listeners>
+		<listener class-name="com.pss.lims.listerners.TestListener" />
+</listeners>
+
+	<test name="SampleRegistrationForwardFlowWithPassJobReTestCycle">
+
+		<classes>
+				
+			<class name="com.pss.lims.sm.SampleManager.SampleRegistration" /> 
+			
+			<class name="com.pss.lims.sm.myactivities.approvals.SampleRegistrationApprove" />
+				
+			<class name="com.pss.lims.sm.SampleManager.SampleQuantity" />
+			
+			<class name="com.pss.lims.sm.myactivities.approvals.SampleQuantityApprove" />
+				
+			<class name="com.pss.lims.sm.SampleManager.JobAllotment" />
+			
+			<class name="com.pss.lims.sm.myactivities.MyJob" />
+			
+			<class name="com.pss.lims.sm.myactivities.JobResultsQualitativeTest" />
+			
+			 <class name="com.pss.lims.sm.myactivities.approvals.SIApproval" />
+			 
+			<class name="com.pss.lims.sm.myactivities.MyJob" />
+			
+				</classes>
+	</test>
+			
+	<test name="SampleRegistrationForwardFlowWithPassJobReTestCycle2">
+
+		<classes>
+				
+			
+		<class name="com.pss.lims.sm.myactivities.passJobReTestCycle" />
+     		
+     		<class name="com.pss.lims.sm.myactivities.JobResultsQualitativeTest" /> 
+     		
+     		
+			
+			<class name="com.pss.lims.sm.SampleManager.SampleResult" />
+			
+			<class name="com.pss.lims.sm.myactivities.approvals.COAApprove" />
+		</classes>
+	</test>
+</suite>

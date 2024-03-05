@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+
+<test name="TerminateInstrumentRejectionFlowTestSuiteReport">
+
+<classes>
+
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.SingleScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.RejectSingleScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.ReinitiateSingleScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.ApproveTerminateSingleSchedule"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.InstrumentScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.RejectInstrumentScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.ReinitiateInstrumentScheduleTerminate"/>
+<class name = "com.pss.lims.IM.TerminateRejectionFlow.ApproveTerminateInstrumentSchedule"/>
+
+</classes>
+
+</test>
+
+</suite>

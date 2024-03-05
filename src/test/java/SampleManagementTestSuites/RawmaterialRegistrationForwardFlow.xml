@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+
+
+  
+
+
+	<test name="RegistrationTestSuites3">
+
+		
+<classes>
+			<!-- <class name = "com.pss.lims.Registration.RegistrationForwardFlow.Product" /> 
+			<class name = "com.pss.lims.Registration.RegistrationForwardFlow.ProductApproval" /> --> 
+			<!-- <class name = "com.pss.lims.Registration.RegistrationForwardFlow.RawMaterialSpecification" /> -->
+			<!-- <class name = "com.pss.lims.Registration.RegistrationForwardFlow.RMSpecificationApproval" /> -->
+			<!-- <class name = "com.pss.lims.Registration.RegistrationForwardFlow.MultiTestCreationForRMSpecification" />  -->
+			<!-- <class name = "com.pss.lims.Registration.RegistrationForwardFlow.TestApproval" />  -->
+			<class name = "com.pss.lims.Registration.RegistrationForwardFlow.RMSpecTestPlanner" />
+			<class name = "com.pss.lims.Registration.RegistrationForwardFlow.TestPlannerApproval" />
+</classes>
+			
+			
+			
+			
+	
+	
+  </test>
+			
+	
+</suite>

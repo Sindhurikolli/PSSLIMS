@@ -1,0 +1,47 @@
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.AnalysisTolerance
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ProtocolSequence
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.SampleTypeMap
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.CreateProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectedProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ApproveProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.StorageCondition
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectedScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ScheduleTestApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.MasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectMasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectedMasterOfChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ApproveMasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.Loading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectedLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ApproveLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.CreateSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.RejectedSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagement.RejectionFlow.ApproveSampleAcknowledgement

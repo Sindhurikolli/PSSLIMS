@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name="RegistrationRejectFlow1">
+
+		<classes>
+
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyUOM" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.UOMReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedUOM" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ApproveUOM" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyCustomer" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.CustomerReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedCustomer" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.CustomerApproval" />	
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySupplier" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SupplierReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSupplier" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SupplierApproval" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyManufacturer" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ManufacturerReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedManufacturer" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ManufacturerApprove" /> 
+			<!-- <class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySampleType" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SampleTypeReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSampleType" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SampletypeApproval" /> -->
+			
+			</classes>
+			
+	 </test>
+			
+	 <test name="RegistrationRejectFlow2">
+	 
+		<classes>
+			 	
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyProduct" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ProductReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedProduct" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ProductApproval" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySpecification" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SpecificationReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSpecification" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SpecificationApproval" />	
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyTest" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.TestReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedTest" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.TestApproval" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyTestPlanner" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.TestPlannerReject" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedTestPlanner" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.TestPlannerApproval" /> 
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySampleRegistration" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.RejectSampleRegistration" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.ReinitiateRejectedSampleRegistration" />
+			<class name = "com.pss.lims.sm.Registration.ModifyRejectionFlow.SampleRegistrationApprove" /> 
+									
+		</classes>
+		
+	</test>
+	
+</suite>

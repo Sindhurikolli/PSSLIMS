@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name = "com.pss.lims.Listners.TestListenerInstrumentManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name = "IMForwardFlowTestSuiteReport">
+
+		<classes>
+
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentCategory"/>
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveInstrumentCategory" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentRegister" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveInstrumentRegistration" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.TestRegistration" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.TestApproval" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.TestTemplate" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.ApproveTestTemplate" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentTestTemplate" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.InstrumentTestTemplateApproval" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationSchedule" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationScheduleApprove" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.JobAssignment" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationWorkSheet" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.WorkSheetCalibrate"/>
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.CalibrationResultsForwardToQC" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.QCApprove" />
+			<class name = "com.pss.lims.IM.PlannedScheduleForwardFlow.QAApprove" />
+			
+		</classes>
+		
+	</test>
+	
+</suite>

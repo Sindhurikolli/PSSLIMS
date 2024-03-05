@@ -1,0 +1,63 @@
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ProductHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectProductHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateProductHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ProductHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ProductUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectProductUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateProductUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ProductUnHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectSpecificationHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateSpecificationHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectSpecificationUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateSpecificationUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationUnHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestHoldApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestUnHoldApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestPlannerHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestPlannerHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerHoldApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerUnhold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestPlannerUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestPlannerUnHold
+
+mvn clean test -Dtest=com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerUnholdApproval

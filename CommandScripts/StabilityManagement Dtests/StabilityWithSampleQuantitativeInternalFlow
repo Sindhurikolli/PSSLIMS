@@ -1,0 +1,33 @@
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.CreateProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ApproveProtocol
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.StorageCondition
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ScheduleTest
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ScheduleTestApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.MasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ApproveMasterChamber
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.Loading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ApproveLoading
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.QuantativeInternalJobAllotment
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.QuantativeJobResults
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.COAApprove
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.CreateSampleAcknowledgement
+
+mvn clean test -Dtest=com.pss.lims.StabilityManagementWithSampleManagementQuantitativeInternalFlow.ApproveSampleAcknowledgement

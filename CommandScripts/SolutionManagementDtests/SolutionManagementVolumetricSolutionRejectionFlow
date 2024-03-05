@@ -1,0 +1,45 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.CreateVolumetricMasterSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationAssignment
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationPrintWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionPreparationReadyMadeSolution
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionPreparationReadyMade
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.MasterOfSolutionSTD
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionStandardization
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedMasterOfSolutionSTD
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionStandardization
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionSTDRequest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionStandardizationWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.SolutionSTDTest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.RejectSolutionSTDTest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ReinitiateRejectedSolutionSTDTest
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.VolumetricSolutionRejectionFlow.ApproveSolutionSTDTest

@@ -1,0 +1,3 @@
+mvn clean test -Dtest=com.pss.lims.IM.statuschange.HoldInstrument
+
+mvn clean test -Dtest=com.pss.lims.IM.statuschange.InstrumentUnhold

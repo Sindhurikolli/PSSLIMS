@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="AdminTestSuiteReports">
+
+		<classes>
+			<class name="com.pss.lims.sm.AdminTab.CreateRole"></class>
+			<class
+				name="com.pss.lims.sm.myactivities.approvals.ApproveRole" />
+			<class name="com.pss.lims.sm.AdminTab.AsignRole" />
+			<class name="com.pss.lims.sm.AdminTab.RoleBasePageAccess" />
+			<class name="com.pss.lims.sm.AdminTab.CreateUserGroup" />
+			<class name="com.pss.lims.sm.AdminTab.PlantCode" />
+		</classes>
+	</test>
+</suite>

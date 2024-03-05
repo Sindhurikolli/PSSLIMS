@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="ReportsTestSuite">
+
+		<classes>
+
+			<class name="com.pss.lims.sm.Reports.PrintRequest"></class>
+			<class name="com.pss.lims.sm.Reports.PrintApprove" />
+			<class name="com.pss.lims.sm.Reports.COAReports" />
+			<class name="com.pss.lims.sm.Reports.SpecificationList" />
+			<class name="com.pss.lims.sm.Reports.SpecialRawDataSheet" />
+			<class name="com.pss.lims.sm.Reports.SpecSheet" />
+			<class name="com.pss.lims.sm.Reports.HistoryOfSpecification" />
+			<class name="com.pss.lims.sm.Reports.SampleReports" />
+		</classes>
+	</test>
+</suite>

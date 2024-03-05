@@ -1,0 +1,7 @@
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyForwardFlow.ChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyForwardFlow.ApproveChemicalLot
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyForwardFlow.DestroyLotContainerQuantity
+
+mvn clean test -Dtest=com.pss.lims.ChemicalManagement.DestroyForwardFlow.ApproveDestroyLotContainer

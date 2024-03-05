@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_QMSProject_jar_1.0-SNAPSHOT">
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerAdmin"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+    
+    <test name="MultiUserCreation">
+        <classes>
+      <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleSMTest"/> 
+     <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleStabilityTest"/> 
+         </classes>
+    </test>
+   
+
+</suite>

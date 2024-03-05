@@ -1,0 +1,15 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.TerminateMasterOfSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.RejectTerminateMasterOfSolutionsRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.ReinitiateMasterOfSolutionRDSTerminate
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.ApproveMasterOfSolutionRDSTerminate
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.TerminateSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.RejectTerminateSolutionPreparation
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.ReinitiateRejectedSolutionPreparationTerminate
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.TerminateRejectionFlow.ApproveSolutionPreparationTerminate

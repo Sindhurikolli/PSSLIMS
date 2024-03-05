@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+
+		<listener class-name = "com.pss.lims.Listners.TestListenerSolutionManagement" />
+		<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener" />
+
+	</listeners>
+
+<test name = "SolutionManagementForwardFlowTestSuite">
+
+<classes>
+
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.CreateMasterOfSolutionRDS"/>
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.ApproveMasterOfSolutions"/>
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationAssignment"/>
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationPrintWorkSheet"/>
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationReadyMadeSolution"/>
+<class name = "com.pss.lims.SolutionManagement.ForwardFlow.ApproveSolutionPreparation"/>
+
+</classes>
+
+</test>
+
+</suite>

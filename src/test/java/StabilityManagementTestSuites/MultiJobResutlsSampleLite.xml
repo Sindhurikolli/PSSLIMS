@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+		
+	<test name = "SampleManagementLite">
+
+		<classes>
+
+				
+			<class name = "com.pss.lims.SampleManagementLite.JobResultsForSMLite"/>  
+			
+
+		</classes>
+		
+	</test>
+	
+	
+	
+</suite>

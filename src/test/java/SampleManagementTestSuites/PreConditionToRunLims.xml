@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PreConditionToRunLimsSuite">
+  <test name="PreConditionToRunLimsTest">
+    <classes>
+     <!--  <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleSMTest"/>  -->
+      <class name="com.pss.lims.sm.AdminTab.CreateUserGroup"/>
+      <class name = "com.pss.lims.sm.LifeCycleForwardFlow.CreateLifeCycle"/>
+	  <class name = "com.pss.lims.sm.LifeCycleForwardFlow.LifeCycleApproval"/>
+	 <class name = "com.pss.lims.sm.SampleTypeLifeCycle.CreateSampleTypeLifeCycle" />
+    </classes>
+  </test> 
+</suite> 

@@ -1,0 +1,51 @@
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ApproveInstrumentRegistration
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyTest
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectTest
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateTest
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ApproveTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateInstrumentTestTemplate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.InstrumentTestTemplateApproval
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifySchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.RejectModifySchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ReinitiateModifySchedule
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.ModifyScheduleApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.JobAssignment
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.CalibrationWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.WorkSheetCalibrate
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.CalibrationResultsForwardToQC
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.QCApprove
+
+mvn clean test -Dtest=com.pss.lims.IM.ModifyScheduleRejectionFlow.QAApprove

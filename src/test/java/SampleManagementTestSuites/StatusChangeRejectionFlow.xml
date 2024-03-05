@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+<test name="StatusChangeRejectionFlowTestSuite">
+
+<classes>
+
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ProductHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectProductHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateProductHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ProductHoldApproval"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ProductUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectProductUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateProductUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ProductUnHoldApproval"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectSpecificationHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateSpecificationHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationHoldApproval"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectSpecificationUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateSpecificationUnhold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.SpecificationUnHoldApproval"/>
+
+</classes>
+
+</test>
+
+<test name = "StatusChangeRejectionFlowTestSuite2">
+
+<classes>
+
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestHoldApprove"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestUnhold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestUnhold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestUnHoldApprove"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestPlannerHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestPlannerHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerHoldApproval"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerUnhold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.RejectTestPlannerUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.ReinitiateTestPlannerUnHold"/>
+<class name = "com.pss.lims.sm.StatusChangeRejectionFlow.TestPlannerUnholdApproval"/>
+
+</classes>
+
+</test>
+
+</suite>

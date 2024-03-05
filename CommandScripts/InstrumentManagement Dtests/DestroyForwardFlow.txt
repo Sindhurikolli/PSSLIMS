@@ -1,0 +1,3 @@
+mvn clean test -Dtest=com.pss.lims.IM.DestroyForwardFlow.InstrumentDestory
+
+mvn clean test -Dtest=com.pss.lims.IM.DestroyForwardFlow.ApproveInstrumentDestroy

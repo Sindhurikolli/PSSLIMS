@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+
+	 <test name="RegistrationRejectFlow1">
+
+		<classes>
+
+			<class name = "com.pss.lims.sm.Registration.Reject.PackingType" />		
+			<class name = "com.pss.lims.sm.Registration.Reject.PackingTypeReject" />	
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedPackingType" />		
+			<class name = "com.pss.lims.sm.Registration.Reject.PackingTypeApproval" /> 		
+			<class name = "com.pss.lims.sm.Registration.Reject.UOM" />
+			<class name = "com.pss.lims.sm.Registration.Reject.UOMReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedUOM" /> 
+			<class name = "com.pss.lims.sm.Registration.Reject.ApproveUOM" /> 
+			<class name = "com.pss.lims.sm.Registration.Reject.StroageCondition" />
+			<class name = "com.pss.lims.sm.Registration.Reject.StorageConditionReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedStorageCondition" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ApproveStorageCondition" />
+			<class name = "com.pss.lims.sm.Registration.Reject.StorageLocation" />
+			<class name = "com.pss.lims.sm.Registration.Reject.StorageLocationReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedStorageLocation" />
+			<class name = "com.pss.lims.sm.Registration.Reject.StorageLocationApproval" />
+			 <class name = "com.pss.lims.sm.Registration.Reject.HandlingSymbol" />
+			<class name = "com.pss.lims.sm.Registration.Reject.HandlingSymbolReject" /> 
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedHandlingSymbol" />
+			<class name = "com.pss.lims.sm.Registration.Reject.HandlingSymbolApproval" />
+			<class name = "com.pss.lims.sm.Registration.Reject.CategoryRegistration" />
+			<class name = "com.pss.lims.sm.Registration.Reject.CategoryReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedCategory" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ApproveCategory" />
+			<class name = "com.pss.lims.sm.Registration.Reject.TestCode" />
+			<class name = "com.pss.lims.sm.Registration.Reject.TestCodeReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedTestCode" />
+			<class name = "com.pss.lims.sm.Registration.Reject.TestCodeApproval" />	
+						
+			</classes>
+			
+	 </test>
+			 
+	 <!-- <test name="RegistrationRejectFlow2">
+	 
+		<classes>
+		    <class name="com.pss.lims.sm.Registration.Reject.Grade"/>
+		  	 <class name = "com.pss.lims.sm.Registration.Reject.Grade" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GradeReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedGrade" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ApproveGrade" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupType" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupTypeReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedGroupType" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupTypeApproval" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupRegistration" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupRegistrationReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedGroupRegistration" />
+			<class name = "com.pss.lims.sm.Registration.Reject.GroupRegistrationApproval" />
+ 			<class name = "com.pss.lims.sm.Registration.Reject.Customer" />	
+			<class name = "com.pss.lims.sm.Registration.Reject.CustomerReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedCustomer" />
+			<class name = "com.pss.lims.sm.Registration.Reject.CustomerApproval" />	
+			<class name = "com.pss.lims.sm.Registration.Reject.Supplier" />
+			<class name = "com.pss.lims.sm.Registration.Reject.SupplierReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedSupplier" />
+			<class name = "com.pss.lims.sm.Registration.Reject.SupplierApproval" />	
+			<class name = "com.pss.lims.sm.Registration.Reject.Manufacturer" />
+			 <class name="com.pss.lims.sm.Registration.Reject.ManufacturerReject"/>
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedManufacturer" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ManufacturerApprove" />
+			<class name = "com.pss.lims.sm.Registration.Reject.SampleType" /> 
+			<class name = "com.pss.lims.sm.Registration.Reject.SampleTypeReject" />
+			<class name = "com.pss.lims.sm.Registration.Reject.ReInitiateRejectedSampleType" />
+			<class name = "com.pss.lims.sm.Registration.Reject.SampletypeApproval" /> 			
+						
+		</classes>
+		
+	</test>
+ -->	
+</suite>

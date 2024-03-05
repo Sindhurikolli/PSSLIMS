@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="ModifyTestSuite">
+
+		<classes>
+			<class name="com.pss.lims.sm.Modify.Product"></class>
+			<class
+				name="com.pss.lims.sm.approvals.modify.ModifyProductApproval" />
+			<class
+				name="com.pss.lims.sm.approvals.modify.ModifySampleRegistration" />
+			<class
+				name="com.pss.lims.sm.approvals.modify.SampleRegistrationModifyApprove" />
+			<class name="com.pss.lims.sm.Modify.ModifySpecification" />
+			<class
+				name="com.pss.lims.sm.approvals.modify.ModifySpecificationApproval" />
+			<class name="com.pss.lims.sm.Modify.UOMModify" />
+			<class name="com.pss.lims.sm.approvals.modify.UOMModifyApprove" />
+		</classes>
+	</test>
+
+</suite>

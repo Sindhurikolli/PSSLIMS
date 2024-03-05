@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+        <listener class-name="com.pss.lims.Listners.TestListenerStabilityManagement"/>
+        <listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	<test name = "MainFlowTestSuiteReports">
+
+		<classes>
+
+				
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.CreateProtocol"/>  
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ApproveProtocol" />		 
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ScheduleTest" /> 
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ScheduleTestApprove" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.Loading" /> 
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ApproveLoading" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.CreateSampleAcknowledgement" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ApproveSampleAcknowledgement" />
+
+		</classes>
+		
+	</test>
+	
+	<!-- <test name = "InitialRegistrations">
+
+		<classes>
+			
+		<class name = "com.pss.lims.StabilityManagement.ForwardFlow.AnalysisTolerance" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ProtocolSequence" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.SampleTypeMap"/>
+		<class name = "com.pss.lims.StabilityManagement.ForwardFlow.StorageCondition" />
+		<class name = "com.pss.lims.StabilityManagement.ForwardFlow.MasterChamber" />
+			<class name = "com.pss.lims.StabilityManagement.ForwardFlow.ApproveMasterChamber" />
+	
+			
+	</classes>
+		
+	</test> -->
+	
+</suite>

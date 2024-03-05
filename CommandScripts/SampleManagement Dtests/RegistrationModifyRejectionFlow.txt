@@ -1,0 +1,79 @@
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.UOMReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ApproveUOM
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyCustomer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.CustomerReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedCustomer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.CustomerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySupplier
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SupplierReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSupplier
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SupplierApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyManufacturer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ManufacturerReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedManufacturer
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ManufacturerApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySampleType
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SampleTypeReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSampleType
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SampletypeApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyProduct
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ProductReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedProduct
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySpecification
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SpecificationReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedSpecification
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyTest
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.TestReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedTest
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifyTestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.TestPlannerReject
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReInitiateRejectedTestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ModifySampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.RejectSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.ReinitiateRejectedSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.Registration.ModifyRejectionFlow.SampleRegistrationApprove

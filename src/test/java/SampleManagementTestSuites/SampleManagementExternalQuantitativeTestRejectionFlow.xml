@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+		<listener
+			class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+			<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+
+	 <test name="RejectFlowTestSuiteReport">
+
+		<classes>
+		
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.Product"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ProductReject"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedProduct"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ProductApproval"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.Specification"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.SpecificationReject"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedSpecification"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.SpecificationApproval"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.QuantativeTestReg"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.TestReject"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedTest"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.TestApproval"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.TestPlanner"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.TestPlannerReject"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedTestPlanner"/>
+		<class name = "com.pss.lims.sm.ExternalRejectionFlow.TestPlannerApproval"/>
+			
+		</classes>
+		
+	</test> 
+	
+	<test name="InternalRejectionFlowTestSuite">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SampleRegistration"/> 
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.RejectSampleRegistration"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReinitiateRejectedSampleRegistration"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SampleRegistrationApprove"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SampleQuantity"/> 
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.RejectSampleQuantity"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.ReinitiateRejectedSampleQuantity"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SampleQuantityApprove"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.ExternalJobAllotment"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.MyJob"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.ExternalJobs"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SIApproval"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.SampleResult"/>
+	<class name = "com.pss.lims.sm.ExternalRejectionFlow.COAApprove"/>
+	
+	</classes>
+	
+	</test>
+	
+</suite>

@@ -1,0 +1,11 @@
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.CreateMasterOfSolutionRDS
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.ApproveMasterOfSolutions
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationAssignment
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationPrintWorkSheet
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.SolutionPreparationReadyMadeSolution
+
+mvn clean test -Dtest=com.pss.lims.SolutionManagement.ForwardFlow.ApproveSolutionPreparation

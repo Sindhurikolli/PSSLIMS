@@ -1,0 +1,190 @@
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.pss</groupId>
+	<artifactId>AUTOLIMS</artifactId>
+	<version>1.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>AUTOLIMS</name>
+	<url>http://maven.apache.org</url>
+	<properties>
+
+		<jre.level>1.8</jre.level>
+		<jdk.level>1.8</jdk.level>
+	<ADMINURL>http://192.168.1.110:8090/ADMINTEST</ADMINURL>
+	<LIMSLoginUrl>http://192.168.1.110:8093/LIMSTEST</LIMSLoginUrl>
+	<REGISTRATIONLoginUrl>http://192.168.1.110:5151/REGISTRATION/Login.do</REGISTRATIONLoginUrl>
+	<!--users Start -->
+	<Initiator_Login>SMAUTO4</Initiator_Login> 
+	<SampleManager_Login>SMAUTO4</SampleManager_Login> 
+	<Reviewer>SMAUTO5</Reviewer> 
+	<Approver_Login>SMAUTO6</Approver_Login> 
+	<Analyst>SMAUTO6</Analyst> 
+	<MasterCreator_Login>SMAUTO4</MasterCreator_Login> 
+	<Reviewer_In_JobAllotment>SMAUTO 6</Reviewer_In_JobAllotment> 
+	<First_Name>SMAUTO</First_Name> 
+	<LastName>6</LastName> 
+	<MyJobUserLastName>6</MyJobUserLastName> 
+		<!--users End -->
+	</properties>
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<source>${jdk.level}</source>
+					<target>${jdk.level}</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<configuration>
+
+				<!-- 	<systemPropertyVariables>
+						<Storage_Condition_Name>${Storage_Condition_Name}</Storage_Condition_Name>
+						<AdhocScheduleName>${AdhocScheduleName}</AdhocScheduleName>
+						<MasterChamber>${MasterChamber}</MasterChamber>
+					</systemPropertyVariables> -->
+					<!-- <systemProperties> <property> <name>ARNumber</name> <value>EM_21_PONE_0005</value> 
+						</property> </systemProperties> -->
+					<systemPropertyVariables>
+				 
+           			 <ADMINURL>${ADMINURL}</ADMINURL>           			 
+           			 <LIMSLoginUrl>${LIMSLoginUrl}</LIMSLoginUrl>
+           			 <REGISTRATIONLoginUrl>${REGISTRATIONLoginUrl}</REGISTRATIONLoginUrl>
+           			 
+           			 
+         		 </systemPropertyVariables>
+					<suiteXmlFiles>
+						<suiteXmlFile>src\test\java\defaultpackage\RoleCreateAndApprove.xml</suiteXmlFile>
+					</suiteXmlFiles>
+					<suiteXmlFiles>
+						Pass testng.xml files as argument from command line
+						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
+						<suiteXmlFile>src\test\java\QMSTestSuites\NewTestNGSuiteChangeControlRejectionFlow.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+
+			</plugin>
+
+		</plugins>
+	</build>
+
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.0.0-M4</version>
+			<type>maven-plugin</type>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.0.0</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-api</artifactId>
+			<version>3.141.59</version>
+			<scope>test</scope>
+			<type>jar</type>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+
+
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>2.3.23</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+
+
+		<!-- for excel sheet -->
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>4.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-configuration</groupId>
+			<artifactId>commons-configuration</artifactId>
+			<version>1.6</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.itextpdf</groupId>
+			<artifactId>itextpdf</artifactId>
+			<version>5.5.13</version>
+		</dependency>
+
+
+	<!-- https://mvnrepository.com/artifact/com.microsoft.sqlserver/mssql-jdbc -->
+	<dependency>
+		<groupId>com.microsoft.sqlserver</groupId>
+		<artifactId>mssql-jdbc</artifactId>
+		<version>6.4.0.jre8</version>
+	</dependency>
+		
+
+		<dependency>
+			<groupId>javax.mail</groupId>
+			<artifactId>javax.mail-api</artifactId>
+			<version>1.6.0</version>
+		</dependency>
+
+
+	</dependencies>
+</project>

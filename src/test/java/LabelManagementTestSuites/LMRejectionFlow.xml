@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners> 
+
+        <listener class-name = "com.pss.lims.Listners.TestListenerLabelManagement"/>
+        <listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+        
+</listeners>
+
+<test name="LMRejectionFlowTestSuite">
+
+<classes>
+
+<class name = "com.pss.lims.LM.RejectionFlow.LabelTemplate"/>
+<class name = "com.pss.lims.LM.RejectionFlow.RejectLabelTemplate"/>
+<class name = "com.pss.lims.LM.RejectionFlow.RejectedLabelTemplate"/>
+<class name = "com.pss.lims.LM.RejectionFlow.ApproveLabelTemplate"/> 
+<class name = "com.pss.lims.LM.RejectionFlow.LabelData"/>
+<class name = "com.pss.lims.LM.RejectionFlow.RejectLabelData"/>
+<class name = "com.pss.lims.LM.RejectionFlow.RejectedLabelData"/>
+<class name = "com.pss.lims.LM.RejectionFlow.ApproveLabelData"/>
+
+</classes>
+
+</test>
+
+</suite>

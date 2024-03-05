@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<listeners>
+		<listener
+			class-name = "com.pss.lims.Listners.TestListenerChemicalManagement" />
+			<listener class-name = "com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+</listeners>
+	
+	<test name="CMTerminateRejectionFlow">
+	
+	<classes>
+	
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateMasterOfChemical"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.RejectMasterOfChemicalTerminate"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateMasterOfChemical"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.MasterOfChemicalTerminateApprove"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateChemicalLot"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.RejectTerminatedChemicalLot"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.TerminateChemicalLot"/>
+	<class name = "com.pss.lims.ChemicalManagement.TerminateRejectionFlow.ApproveTerminatedChemicalLot"/>
+	
+	</classes>
+	
+	</test>
+	
+	</suite>

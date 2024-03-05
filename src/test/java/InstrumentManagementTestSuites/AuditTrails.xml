@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+	<test name="AuditTrailsTestSuiteReports">
+		<classes>
+
+			<class name="com.pss.lims.IM.AuditTrials.InstrumentCatgeory"></class>
+			<class
+				name="com.pss.lims.IM.AuditTrials.InstrumentRegistration" />
+			<class name="com.pss.lims.IM.AuditTrials.TestAudit" />
+			<class name="com.pss.lims.IM.AuditTrials.TestTemplate" />
+			<class
+				name="com.pss.lims.IM.AuditTrials.InstrumentTestTemplate" />
+			<class name="com.pss.lims.IM.AuditTrials.InstHoldorUnhold" />
+			<class name="com.pss.lims.IM.AuditTrials.InstrumentDestroy" />
+			<class name="com.pss.lims.IM.AuditTrials.AdhocCalibration" />
+			<class name="com.pss.lims.IM.AuditTrials.ReferenceReports" />
+			<class
+				name="com.pss.lims.IM.AuditTrials.TerminateSingleSchedule" />
+			<class
+				name="com.pss.lims.IM.AuditTrials.TerminateInstrumentSchedule" />
+			<class
+				name="com.pss.lims.IM.AuditTrials.CalibrationCertificate" />
+			<class name="com.pss.lims.IM.AuditTrials.InstrumentUsage" />
+			<class name="com.pss.lims.IM.AuditTrials.ModifyInstrumentUsage" />
+		</classes>
+	</test>
+</suite>

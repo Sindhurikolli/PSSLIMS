@@ -1,0 +1,15 @@
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.LabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.RejectLabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.RejectedLabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.ApproveLabelTemplate
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.LabelData
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.RejectLabelData
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.RejectedLabelData
+
+mvn clean test -Dtest=com.pss.lims.LM.RejectionFlow.ApproveLabelData

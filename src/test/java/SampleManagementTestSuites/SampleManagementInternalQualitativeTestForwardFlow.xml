@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="com.mycompany_LIMS_jar_1.0-SNAPSHOT">
+
+<listeners>
+
+		<listener class-name="com.pss.lims.Listners.TestListenerSampleManagement" />
+		<listener class-name="com.pss.lims.Listners.SuiteFailingInvokedMethodListener"/>
+			
+</listeners>
+<parameter name="SAMPLE_MANAGEMENT_QUALITATIVETEST_FORWARDED_FLOW" value="QUALITATIVETEST"/>
+	
+	
+    <test name="SampleManagementPropertyFileUpdate">
+        <classes>
+      <class name="com.pss.lims.PropertiesFileUpdate.SampleManagementPropertyFileUpdate">
+      
+      <methods>
+		<include name="SINGLEQUALITATIVE_TEST"/>
+	  </methods>   
+      </class> 
+        </classes>
+    </test>
+	 <test name="InternalQualitativeForwardFlowTestSuite">
+
+		<classes>
+			
+			<!-- <class name = "com.pss.lims.sm.InternalForwardFlow.Product"/>
+			<class name = "com.pss.lims.sm.InternalForwardFlow.ProductApproval"/>  	
+			<class name = "com.pss.lims.sm.InternalForwardFlow.Specification"/>
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SpecificationApproval"/> 
+			<class name = "com.pss.lims.sm.InternalForwardFlow.QualitativeTestReg"/>
+			<class name = "com.pss.lims.sm.InternalForwardFlow.TestApproval"/>
+			<class name = "com.pss.lims.sm.InternalForwardFlow.TestPlanner"/>
+			<class name = "com.pss.lims.sm.InternalForwardFlow.TestPlannerApproval"/>  -->
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistration" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleRegistrationApprove" />
+		 	<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantity" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleQuantityApprove" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.JobAllotment" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.MyJob" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.QualitativeJobResults" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SIApproval" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.SampleResult" />
+			<class name = "com.pss.lims.sm.InternalForwardFlow.COAApprove" /> 
+			
+		</classes>
+		
+	</test> 
+	
+</suite>

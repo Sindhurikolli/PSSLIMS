@@ -1,0 +1,59 @@
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.Product
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ProductReject
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedProduct
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ProductApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.Specification
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SpecificationReject
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedSpecification
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SpecificationApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.QuantativeTestReg
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.TestReject
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedTest
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.TestApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.TestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.TestPlannerReject
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReInitiateRejectedTestPlanner
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.TestPlannerApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.RejectSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReinitiateRejectedSampleRegistration
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SampleRegistrationApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.RejectSampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ReinitiateRejectedSampleQuantity
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SampleQuantityApprove
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ExternalJobAllotment
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.MyJob
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.ExternalJobs
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SIApproval
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.SampleResult
+
+mvn clean test -Dtest=com.pss.lims.sm.ExternalRejectionFlow.COAApprove
