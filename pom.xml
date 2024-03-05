@@ -15,20 +15,20 @@
 
 		<jre.level>1.8</jre.level>
 		<jdk.level>1.8</jdk.level>
-	<ADMINURL>http://192.168.1.110:8090/ADMINTEST</ADMINURL>
-	<LIMSLoginUrl>http://192.168.1.110:8093/LIMSTEST</LIMSLoginUrl>
-	<REGISTRATIONLoginUrl>http://192.168.1.110:5151/REGISTRATION/Login.do</REGISTRATIONLoginUrl>
+	<ADMINURL>http://192.168.1.7:9080/ADMINTEST</ADMINURL>
+	<LIMSLoginUrl>http://192.168.1.7:9084/LIMSTEST</LIMSLoginUrl>
+	<REGISTRATIONLoginUrl>http://192.168.1.7:9080/REGISTRATION/Login.do</REGISTRATIONLoginUrl>
 	<!--users Start -->
-	<Initiator_Login>SMAUTO4</Initiator_Login> 
-	<SampleManager_Login>SMAUTO4</SampleManager_Login> 
-	<Reviewer>SMAUTO5</Reviewer> 
+	<Initiator_Login>SMAUTO1</Initiator_Login> 
+	<SampleManager_Login>SMAUTO1</SampleManager_Login> 
+	<Reviewer>SMAUTO6</Reviewer> 
 	<Approver_Login>SMAUTO6</Approver_Login> 
-	<Analyst>SMAUTO6</Analyst> 
-	<MasterCreator_Login>SMAUTO4</MasterCreator_Login> 
-	<Reviewer_In_JobAllotment>SMAUTO 6</Reviewer_In_JobAllotment> 
+	<Analyst>SMAUTO2</Analyst> 
+	<MasterCreator_Login>SMAUTO1</MasterCreator_Login> 
+	<Reviewer_In_JobAllotment>SMAUTO 3</Reviewer_In_JobAllotment> 
 	<First_Name>SMAUTO</First_Name> 
-	<LastName>6</LastName> 
-	<MyJobUserLastName>6</MyJobUserLastName> 
+	<LastName>3</LastName> 
+	<MyJobUserLastName>3</MyJobUserLastName> 
 		<!--users End -->
 	</properties>
 	<build>
