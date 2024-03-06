@@ -32,7 +32,8 @@
 
 		<classes>
 		
-			  <class name = "com.pss.lims.sm.InternalForwardFlow.MultiJobWorksheetPrint" /> 
+<!-- 		  <class name = "com.pss.lims.sm.InternalForwardFlow.MultiJobWorksheetPrint" /> old one -->
+		  <class name = "com.pss.lims.sm.InternalForwardFlow.JobPrintStatusUpdate" /> 
 	
 		</classes>
 		
