@@ -87,13 +87,6 @@ public class MultiTestsJobAllotment extends SMLoginDetails {
 	private void methodTocreateJobAllotment() throws Exception {
 
 		WebDriverWait wait = new WebDriverWait(driver, 150);
-		String AR_NumberFor_Job_Print = driver.findElement(By.xpath("//*[@id='jobAllotmentTable']/div/table/tbody/tr/td[13]")).getText();
-		System.out.println(AR_NumberFor_Job_Print);
-		
-		PropertiesConfiguration prop = new PropertiesConfiguration("src/test/java/LIMSUIProperties/SampleManagement.properties");
-		prop.setProperty("Ar_Number_For_Print_Staus_Update", AR_NumberFor_Job_Print);	
-		prop.save();
-		Thread.sleep(2000);
 		int count1 = 0;
 		boolean isRecordSelected1 = false;
 		String arNumber = properties.getProperty("AR_Number");
