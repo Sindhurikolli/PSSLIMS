@@ -60,13 +60,13 @@ public class JobPrintStatusUpdate extends SMLoginDetails{
 				String AR_NumberFor_Job_Print = driver.findElement(By.xpath("//*[@id='myJobListTable']/div/table/tbody/tr/td[5]")).getText();
 				System.out.println(AR_NumberFor_Job_Print);
 				
-				PropertiesConfiguration prop = new PropertiesConfiguration("src/test/java/LIMSUIProperties/SampleManagement.properties");
-				prop.setProperty("Ar_Number_For_Print_Staus_Update", AR_NumberFor_Job_Print);	
-				prop.save();
+				PropertiesConfiguration propConfig = new PropertiesConfiguration("src/test/java/LIMSUIProperties/SampleManagement.properties");
+				propConfig.setProperty("Ar_Number_For_Print_Staus_Update", AR_NumberFor_Job_Print);	
+				propConfig.save();
 				Thread.sleep(2000);
 		    	
 		        try {
-		            String query1 = "select ID from LIMS_SAMPLE_LOGIN where AR_NO = '"+properties.getProperty("Ar_Number_For_Print_Staus_Update")+"'";
+		            String query1 = "select ID from LIMS_SAMPLE_LOGIN where AR_NO = '"+AR_NumberFor_Job_Print+"'";
 		            statement = connection.createStatement();
 		            rs = statement.executeQuery(query1);
 		           
