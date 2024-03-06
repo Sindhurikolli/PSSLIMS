@@ -57,7 +57,7 @@ public class JobPrintStatusUpdate extends SMLoginDetails{
 				jse1.executeScript("arguments[0].click();", element1);
 				wait.until(ExpectedConditions.presenceOfElementLocated(By.cssSelector("#myJobListTable > div > div.jtable-busy-message[style='display: none;']")));
 				Thread.sleep(4000);
-				String AR_NumberFor_Job_Print = driver.findElement(By.xpath("//*[@id='jobAllotmentTable']/div/table/tbody/tr/td[13]")).getText();
+				String AR_NumberFor_Job_Print = driver.findElement(By.xpath("//*[@id='myJobListTable']/div/table/tbody/tr/td[5]")).getText();
 				System.out.println(AR_NumberFor_Job_Print);
 				
 				PropertiesConfiguration prop = new PropertiesConfiguration("src/test/java/LIMSUIProperties/SampleManagement.properties");
