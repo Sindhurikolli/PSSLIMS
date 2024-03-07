@@ -5,6 +5,7 @@
     
     <parameter name="ADMINURL" value="${ADMINURL}"/>
 	<parameter name="LIMSLoginUrl" value="${LIMSLoginUrl}"/>
+	<parameter name="REGISTRATIONLoginUrl" value="REGISTRATIONLoginUrl"/>
 	
 	
     <test name="URLUpdateinPropertiesfile">

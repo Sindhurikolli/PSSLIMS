@@ -10,8 +10,8 @@ import org.testng.annotations.Test;
 		
 		
 		@Test
-		@Parameters({"ADMINURL", "LIMSLoginUrl"})
-		public static void main(String ADMINURL, String LIMSLoginUrl ) {
+		@Parameters({"ADMINURL", "LIMSLoginUrl", "REGISTRATIONLoginUrl"})
+		public static void main(String ADMINURL, String LIMSLoginUrl , String REGISTRATIONLoginUrl) {
 	        try {
             PropertiesConfiguration adminproperties = new PropertiesConfiguration("src\\test\\java\\LIMSUIProperties\\adminproperties.properties");
             adminproperties.setProperty("ADMINURL", ADMINURL);
@@ -69,6 +69,7 @@ import org.testng.annotations.Test;
 	        PropertiesConfiguration RegistrationProperties = new PropertiesConfiguration("src\\test\\java\\LIMSUIProperties\\Registration.properties");	        
 	        RegistrationProperties.setProperty("LIMSLoginUrl", LIMSLoginUrl); 
 	        RegistrationProperties.setProperty("ADMINURL", ADMINURL);
+	        RegistrationProperties.setProperty("REGISTRATIONLoginUrl", REGISTRATIONLoginUrl);
 	        RegistrationProperties.save();
 	        System.out.println("Registration.properties updated Successfully!!");
 	        
