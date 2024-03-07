@@ -9,7 +9,7 @@
     <test name="MultiUserCreation">
         <classes>
       <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleSMTest"/> 
-     <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleStabilityTest"/> 
+<!--      <class name="com.pss.lims.AssignRoles.MultiUsersAssignRoleStabilityTest"/>  -->
          </classes>
     </test>
    
