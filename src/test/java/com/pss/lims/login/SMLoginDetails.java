@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.net.InetAddress;
 import java.net.URL;
 import java.util.Date;
 import java.util.Properties;
@@ -194,7 +195,9 @@ public class SMLoginDetails {
 		String databaseURL = "jdbc:sqlserver://"+properties.getProperty("DB_Ip_Address")+":1433;databaseName="+properties.getProperty("Database_Name");
         String user = properties.getProperty("DB_User");
         String password = properties.getProperty("DB_Password");
-        String Test_Run_Ip_Address = properties.getProperty("Test_Run_Ip_Address");
+        InetAddress IP=InetAddress.getLocalHost();
+        System.out.println("IP of my system is := "+IP.getHostAddress());
+        String Test_Run_Ip_Address = IP.getHostAddress();
         connection = null;
         PreparedStatement pstmt = null;
         DateFormat dateFormatYMD = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");	
